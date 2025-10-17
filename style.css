@@ -1,6 +1,45 @@
 /* This is a CSS comment */
 
+/*CSS RESET  */
+*{
+    margin: 0;
+    padding: 0;
+    
+}
 /* Targets thye body tag <body> */
 body{
-    background-color: #d7b4e9;
+    background-color: #e2c6f0;
+    font-family: Just, "Barlow Condensed", Arial, Helvetica, sans-serif;
+    line-height: 1.5; /* 1.5 Line Spacing */
+    color: #000000;
 }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Barlow Condensed", sans-serif;
+    margin-bottom: 0.5em; /* em - scales on font size */
+    /* if the font size is 40 px, 0.5em is 20px */
+    font-weight: bold; /* makes text bold */
+}
+
+section{
+    background-color: beige;
+    color: #000000;
+    margin: 5em;
+    padding: 2em;
+
+    border-width: 10px;
+    border-style: solid;
+    border-color: #e2c6f0;
+    border-radius: 10px;
+}
+
+    nav{
+        padding: 1em;
+        font-weight: bold;
+    }
+
+    nav a{ /* targets all anchor tags inside nav */
+        color: #ffffff;
+        text-decoration: none;
+        
+    }
