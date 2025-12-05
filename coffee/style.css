@@ -134,6 +134,7 @@ p {
     color: var(--light);
 
     text-decoration: none;
+
     padding: var(--space-1) var(--space-2);
     border-radius: var(--space-3)
 }
@@ -187,7 +188,29 @@ p {
     
     box-shadow: var(--shadow-dark);
 }
-
 .swatch .swatch-name {
     text-align: center;
+}
+
+/************************* TEXT ********************************/
+.line-1 {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    line-clamp: 1;
+
+    height: 1.5em;
+    overflow: clip;
+    text-overflow: ellipsis;
+}
+
+.line-2 {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+
+    height: 3em;
+    overflow: clip;
+    text-overflow: ellipsis;
 }
